@@ -1,0 +1,73 @@
+body {
+	background: black;
+    display: flex;
+    justify-content: center;  /* Centra horizontalmente */
+    align-items: center;
+    height: 90vh;
+    font-size: 14px;
+    font-family: "Playwrite DE Grund";
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-weight: bold;
+    
+}
+
+.postcard {
+	background: white;
+	width: 526px;
+	height: 376px;
+	
+}
+.postcard-header {
+	display: flex;
+	align-items: center; 
+}
+.postcard-header img {
+	height: 60px;
+	width: 70px;
+	margin: 7px;
+}
+.postcard-header h1 {
+	width: 100%;
+	margin: 0;
+    margin-left: 12px;
+}
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+    text-align: justify;
+}
+.body-left{
+    width: 90%;
+}
+input {
+	border: none;
+	border-bottom: 1px solid grey;
+    margin-bottom: 13px;   
+    margin-top: 8px;
+    outline: none;
+}
+::-webkit-input-placeholder {
+    font-size: 18px;
+    color: grey;
+}
+.postcard-footer{
+    text-align: center;
+}
+button{
+    background-color: rgb(190, 190, 190);
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "Playwrite DE Grund";
+    font-style: normal;
+    font-weight: bold;
+    border: none;
+}
+
